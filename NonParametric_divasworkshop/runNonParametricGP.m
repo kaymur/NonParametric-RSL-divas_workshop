@@ -56,7 +56,7 @@ else
     prepData;
     sample_Ys_Thetas;
     finishAnalysis;
-   % save "finalsamps" thinned_ys
+   % save "finalsamps" thinned_ys test comment
 end
 
 
