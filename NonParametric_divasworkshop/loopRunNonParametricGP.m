@@ -23,13 +23,15 @@ for i = 1:length(filelist)
     % user inputs required for runNonParametricGP.m:
         % distFile
         % df
-
+        % run type
+    
+    run_type = 3;  % We are using real data, not running tests on the model.
     distFile=filelist{i}; 
     name = distFile(1:length(distFile)-4); 
     df = [datestr(date,'ddmmyyyy') ' ' name]; 
 
     % run the runNonParametricGP.m for file i within filelist
-    runNonParametricGP
+    runNonParametricGP_loop
 
 
 end

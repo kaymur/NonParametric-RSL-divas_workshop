@@ -1,5 +1,5 @@
 %% add the paths to run all of the scripts
-clearvars -except run_type Seed df pc pctext pd distKern0 distKernel distKernFlor jjj all run_start run_end counter CEFILES IFILES synthflag truth_flag Seed dateField rng datGIA sfile distNorm distKern df
+clearvars -except distFile run_type Seed df pc pctext pd distKern0 distKernel distKernFlor jjj all run_start run_end counter CEFILES IFILES synthflag truth_flag Seed dateField rng datGIA sfile distNorm distKern df
 
 if ~exist('run_type', 'var')==1
     run_type = 1; Seed = 4;

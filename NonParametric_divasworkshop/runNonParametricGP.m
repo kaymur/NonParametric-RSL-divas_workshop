@@ -56,7 +56,7 @@ else
     prepData;
     sample_Ys_Thetas;
     finishAnalysis;
-   % save "finalsamps" thinned_ys test comment
+    save "finalsamps" nthin thetachange nburn stepchange thinned_ys steps_keep logp_keep Nsamples trainsubz all_ys cspecies
 end
 
 

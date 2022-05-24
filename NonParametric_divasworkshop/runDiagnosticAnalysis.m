@@ -7,6 +7,8 @@
 % visually inspect the matrix of thetas to determine if they look reasonable (e.g., pushing up against a
 % lower or upper bound)
 
+% specify path to folder containing the pdfwrite function
+addpath('/Users/fangyi/Library/CloudStorage/OneDrive-NanyangTechnologicalUniversity/Ericas model/Ericas-NP-model-Fangyi/NonParametric/MFILES');
 
 %% analyse the (already thinned by given nthin) posterior samples of RSLs (ys)
     % as a matrix to plot several at a time
