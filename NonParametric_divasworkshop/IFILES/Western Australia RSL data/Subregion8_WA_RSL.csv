@@ -1,0 +1,27 @@
+﻿SampleID,SubRegion,Region,Latitude,Longitude,RSL,RSL_er_max,RSL_er_min,Elevation,El_er_max,El_er_min,Age,Age_er_max,Age_er_min,Type,Interc,Indicator,Region,CoralTaxa,Remove
+MC-3,Houtman Abrolhos Islands,Australia,-28.45,113.75,0,0,0,14.7,14.00988691,14.00987264,6714,55,55,2,0,2,8,7,0
+MC-8,Houtman Abrolhos Islands,Australia,-28.45,113.75,0,0,0,13.8,14.00988691,14.00987264,7099,69,69,2,0,2,8,7,0
+MC-10,Houtman Abrolhos Islands,Australia,-28.45,113.75,0,0,0,10.9,14.00988691,14.00987264,7842,74,74,2,0,2,8,7,0
+MC-12,Houtman Abrolhos Islands,Australia,-28.45,113.75,0,0,0,8.5,14.00988691,14.00987264,8119,44,44,2,0,2,8,7,0
+MC-21,Houtman Abrolhos Islands,Australia,-28.45,113.75,0,0,0,5,14.00988691,14.00987264,7996,103,103,2,0,2,8,7,0
+MC-14,Houtman Abrolhos Islands,Australia,-28.45,113.75,0,0,0,1.9,14.00988691,14.00987264,8619,48,48,2,0,2,8,7,0
+MC-16,Houtman Abrolhos Islands,Australia,-28.45,113.75,0,0,0,-1.1,14.00988691,14.00987264,8990,171,171,2,0,2,8,7,0
+MC-18,Houtman Abrolhos Islands,Australia,-28.45,113.75,0,0,0,-3.8,14.00988691,14.00987264,9345,70,70,2,0,2,8,7,0
+MC-19,Houtman Abrolhos Islands,Australia,-28.45,113.75,0,0,0,-4.7,14.00988691,14.00987264,8655,327,203,2,0,2,8,7,0
+MC-4#1,Houtman Abrolhos Islands,Australia,-28.45,113.75,0,0,0,-7.5,14.00988691,14.00987264,9610,50,50,2,0,2,8,7,0
+MC-4#2,Houtman Abrolhos Islands,Australia,-28.45,113.75,0,0,0,-7.5,14.00988691,14.00987264,9480,50,50,2,0,2,8,7,0
+MC-4#3,Houtman Abrolhos Islands,Australia,-28.45,113.75,0,0,0,-7.5,14.00988691,14.00987264,9478,77,77,2,0,2,8,7,0
+MC-5,Houtman Abrolhos Islands,Australia,-28.45,113.75,0,0,0,-9,14.00988691,14.00987264,9800,95,95,2,0,2,8,7,0
+SC-1,Houtman Abrolhos Islands,Australia,-28.45,113.75,0,0,0,15.9,14.00988691,14.00987264,4671,82,82,2,0,2,8,7,0
+SC-3,Houtman Abrolhos Islands,Australia,-28.45,113.75,0,0,0,1.8,14.00988691,14.00987264,7099,40,40,2,0,2,8,7,0
+SC-4,Houtman Abrolhos Islands,Australia,-28.45,113.75,0,0,0,9.45,14.00997613,14.00996186,5802,75,75,2,0,2,8,7,0
+SC-2,Houtman Abrolhos Islands,Australia,-28.45,113.75,0,0,0,4.85,14.00997613,14.00996186,6357,37,37,2,0,2,8,7,0
+HST5,Houtman Abrolhos Islands,Australia,-28.409,113.498,0,0,0,17.62,14.0211209,14.02110664,6832,34,34,2,0,2,8,7,0
+HST7,Houtman Abrolhos Islands,Australia,-28.408,113.498,0,0,0,17.46,14.0211209,14.02110664,5825,30,30,2,0,2,8,7,0
+HST8,Houtman Abrolhos Islands,Australia,-28.407,113.498,0,0,0,17.42,14.0211209,14.02110664,6919,33,33,2,0,2,8,7,0
+HST4,Houtman Abrolhos Islands,Australia,-28.41,113.499,0,0,0,16.8,14.0211209,14.02110664,6323,23,23,2,0,2,8,7,0
+HST2,Houtman Abrolhos Islands,Australia,-28.411,113.499,0,0,0,17.03,14.0211209,14.02110664,3867,28,28,2,0,2,8,7,0
+HST1,Houtman Abrolhos Islands,Australia,-28.411,113.499,0,0,0,16.78,14.0211209,14.02110664,3831,33,33,2,0,2,8,7,0
+HST3,Houtman Abrolhos Islands,Australia,-28.411,113.499,0,0,0,16.73,14.0211209,14.02110664,2335,13,13,2,0,2,8,7,0
+HS3,Houtman Abrolhos Islands,Australia,-28.411,113.499,0,0,0,16.67,14.0211209,14.02110664,3226,56,56,2,0,2,8,7,0
+HS4,Houtman Abrolhos Islands,Australia,-28.412,113.498,0,0,0,16.46,14.0211209,14.02110664,1058,10,10,2,0,2,8,7,0

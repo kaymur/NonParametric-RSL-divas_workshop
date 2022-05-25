@@ -1,0 +1,4 @@
+﻿SampleID,SubRegion,Region,Latitude,Longitude,RSL,RSL_er_max,RSL_er_min,Elevation,El_er_max,El_er_min,Age,Age_er_max,Age_er_min,Type,Interc,Indicator,Region,CoralTaxa,Remove
+SUA 1629,Sandy Point,,-30.07,115.01,6,1,1,0,0,0,1245,158,179,1,0,1,9,0,0
+SUA 1472,Sandland Island,,-30.2,115.02,9,3,3,0,0,0,6082,201,174,1,0,1,9,0,0
+SUA 1853,Moore River,,-31.31,115.51,25,5,5,0,0,0,5951,238,213,1,0,1,9,0,0
