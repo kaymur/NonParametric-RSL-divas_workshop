@@ -1,6 +1,8 @@
+% last updated by Erica Ashe 7/6/22
+
 all_ys = repmat(Y,1,nsamps);
 trainsubz = find(limiting~=0&limiting~=20);
-if spatial==1 && (modno==6||modno==3)
+if spatial==1 % && (modno==6||modno==3)
     DefCov_spatial;
 else
     DefineCovarianceFunctions;
@@ -42,3 +44,7 @@ datasets{1}.meantime=mean([t1 t2],2);
 datasets{1}.dt = abs(t1-t2)/4;
 
 step_size=dY*2.5; 
+
+if exist("includeGIAs", "var")
+    loadGIAs;
+end

@@ -2,9 +2,10 @@
 tic;
 
 maxstep=max(8*dY(trainsubz),1000);
-minstep=100;
+minstep=dY(trainsubz)/2;
 for iii=1:length(modelspec.ub)
     maxstep=[maxstep; modelspec.ub(iii)-modelspec.lb(iii)];
+    minstep=[minstep; (modelspec.ub(iii)-modelspec.lb(iii))/500];
 end
 if ~exist('thinned_ys')
     new=1;
@@ -292,7 +293,8 @@ for nn=xx:Nsamples
         %   disp([sprintf('%0.0f -- ',pp) sprintf('%0.2f ',sum(acc_count))]);
         %   disp(sprintf('%0.3f -- Avg Accept, nn = %0.0f',[mean(acc_count)/nn, nn]));
         sub_big=intersect(find(wacc_count/step_change>.45),find(steps<maxstep));
-        sub_small=intersect(find(wacc_count/step_change <.25),find(wacc_count>0));
+        sub_small=intersect(find(wacc_count/step_change <.25),intersect(find(wacc_count>0),find(steps>minstep)));
+        %sub_small=intersect(find(wacc_count/step_change <.25),find(wacc_count>0));
         sub_none=intersect(find(wacc_count<1),find(steps<maxstep));
         if size(sub_none)>0
             steps(sub_none)= steps(sub_none)*1.8;                

@@ -8,8 +8,9 @@ clc
 
 % input name of folder containing files to loop through
 % folder should be contained within the 'IFILES' folder
-%folder = '/Pacific RSL data'; 
-folder = '/Western Australia RSL data'; 
+folder = '/PacificRSL'; includeGIAs = 1;
+%folder = '/Pacific RSL data'; includeGIAs = 1;
+%folder = '/Western Australia RSL data'; 
 
 %% Loop to run the runNonParametricGP.m script for all files in a folder 
 

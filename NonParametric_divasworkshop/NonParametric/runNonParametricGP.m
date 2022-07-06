@@ -11,7 +11,10 @@ clearvars -except pd df IFILES filelist IFILES distFile;
 run_type = 3;  % We are using real data, not running tests on the model.
 
 % what is your datafile called?
-distFile = 'Subregion7_WA_RSL.csv';
+data_location = 'GilbertIs';
+distFile = ['PacificRSL/' data_location '_RSLdata_highquality.csv'];
+%distFile = 'PacificRSL/Fiji_RSLdata_highquality.csv';
+%distFile = 'Subregion7_WA_RSL.csv';
 
 if exist('Seed', 'Var')
 elseif exist('run_type','Var')
@@ -24,7 +27,7 @@ else
 end
 
 %% define a field that will name the folder for results
-df = '19052022 Shark Bay test';
+df = ['27062022_' data_location 'Test'];
 
 if ~exist('pd','var')
     pd = pwd;
@@ -56,7 +59,5 @@ else
     prepData;
     sample_Ys_Thetas;
     finishAnalysis;
-    save "finalsamps" nthin thetachange nburn stepchange thinned_ys steps_keep logp_keep Nsamples trainsubz all_ys cspecies
+    save "finalsamps" nthin thetachange nburn stepchange thinned_ys steps_keep logp_keep Nsamples trainsubz IFILES cspecies meantime datasets
 end
-
-
