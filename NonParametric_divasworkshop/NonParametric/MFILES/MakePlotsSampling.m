@@ -11,7 +11,7 @@ defval('difftimestep',100);
 defval('xlim0',[0 12000]);
 defval('maxdistfrom',.1);
 numrows=1+(difftimestep>0);
-if min(dataset.meantime) < -3000
+if min(dataset.meantime) < -10 %-3000
     dataset.meantime = 1950 - dataset.meantime;
     dataset.time1 = 1950 - dataset.time1;
     dataset.time2 = 1950 - dataset.time2;
